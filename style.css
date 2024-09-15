@@ -1,0 +1,155 @@
+/*Universal Setting*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+/*Header*/
+
+header {
+    height: 69px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    padding: 0 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav a {
+    color: seashell;
+    opacity: 0.9;
+}
+
+/*Banner*/
+main {
+    position: relative;
+    top: 70px;
+    margin: 0 20px;
+}
+
+/*Banner*/
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+h4 {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.banner {
+    margin: auto;
+    background-image: url(/img/img-mission-background.jpg);
+    background-position: center;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+#banner{
+    width: 1200px;
+}
+
+/*TOTM*/
+#totm {
+    width: 1000px;
+}
+
+main img{
+    width: 300px;
+    height: 200px;
+}
+
+.photoGallery {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.photoContainer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    background-image: url(/img/img-locations-background.jpg);
+    background-position: center;
+    height: 500px;
+    margin: 50px auto;
+    align-content: center;
+    text-align: center;
+}
+
+#location {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.alladdress {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    height: 200px;
+    margin: 0 40px;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+}
+
+.address p {
+    margin: 20px;
+}
+
+#majorLocation {
+    font-weight: bold;
+}
+
+.contact{
+    height: 200px;
+    text-align: center;
+}
+
+.contact h5{
+    margin: 20px auto;
+    font-size: 0.8em;
+}
+
+footer {
+    position: relative;
+    top: 90px;
+    margin-left: 20px;
+}
